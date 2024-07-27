@@ -21,7 +21,7 @@ namespace minimal_api.Controllers
             _product = mongoDbService.GetDatabase.GetCollection<Product>("product");
         }
 
-        //************************** GET *****************************
+        //************************** GET (LISTAR) *****************************
         [HttpGet]
         public async Task<ActionResult<List<Product>>> Get()
         {
@@ -36,7 +36,7 @@ namespace minimal_api.Controllers
             }
         }
 
-        //*************************** POST ****************************
+        //*************************** POST (CADASTRAR) ****************************
         [HttpPost]
         public async Task <IActionResult> Post(Product product)
         {
@@ -72,11 +72,36 @@ namespace minimal_api.Controllers
             }
             catch (Exception e) 
             {
-
                 return BadRequest(e.Message);
             }
         }
 
+        //************************* PUT (ATUALIZAR) **************************
+        [HttpPut("{id}")]
+        public async Task<IActionResult> Update(string id, Product newProduct)
+        {
+            try 
+            {
+                var filter = Builders<Product>.Filter.Eq(z => z.Id, id);
+                var product = await _product.Find(filter).FirstOrDefaultAsync();
 
+                if (product == null)
+                {
+                    return NotFound("Objeto não encontrado");
+                }
+
+                var updateDefinition = Builders<Product>.Update
+                .Set(p => p.Name, newProduct.Name)
+                .Set(p => p.Price, newProduct.Price);
+            
+                await _product.UpdateOneAsync(filter, updateDefinition);
+
+                return NoContent();
+            }
+            catch (Exception e) 
+            {
+                return BadRequest(e.Message);
+            }
+        }
     }
 }
