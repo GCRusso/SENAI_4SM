@@ -8,49 +8,49 @@ namespace minimal_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ClientController : ControllerBase
     {
-        private readonly IMongoCollection<Product> _product;
+        private readonly IMongoCollection<Client> _client;
 
         /// <summary>
         /// Construtor que recebe como dependencia o objeto da classe MongoDbService
         /// </summary>
         /// <param name="mongoDbService"></param>
-        public ProductController(MongoDbService mongoDbService)
+        public ClientController(MongoDbService mongoDbService)
         {
-            _product = mongoDbService.GetDatabase.GetCollection<Product>("product");
-        }
-
-        //************************** GET (LISTAR) *****************************
-        [HttpGet]
-        public async Task<ActionResult<List<Product>>> Get()
-        {
-            try
-            {
-                var products = await _product.Find(FilterDefinition<Product>.Empty).ToListAsync();
-                return Ok(products);
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
+            _client = mongoDbService.GetDatabase.GetCollection<Client>("client");
         }
 
         //*************************** POST (CADASTRAR) ****************************
         [HttpPost]
-        public async Task<IActionResult> Post(Product product)
+        public async Task<IActionResult> Post(Client client)
         {
             try
             {
-                await _product.InsertOneAsync(product);
+                await _client.InsertOneAsync(client);
 
-                return StatusCode(201, product);
+                return StatusCode(201, client);
             }
             catch (Exception e)
             {
                 return BadRequest(e.Message);
             }
 
+        }
+
+        //************************** GET (LISTAR) *****************************
+        [HttpGet]
+        public async Task<ActionResult> Get()
+        {
+            try
+            {
+                var clients = await _client.Find(FilterDefinition<Client>.Empty).ToListAsync();
+                return Ok(clients);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
 
         //************************* DELETE **************************
@@ -60,14 +60,14 @@ namespace minimal_api.Controllers
         {
             try
             {
-                var product = await _product.FindAsync(z => z.Id == id);
+                var client = await _client.FindAsync(z => z.Id == id);
 
-                if (product == null)
+                if (client == null)
                 {
                     return BadRequest("Objeto nao encontrado");
                 }
 
-                await _product.DeleteOneAsync(x => x.Id == id);
+                await _client.DeleteOneAsync(x => x.Id == id);
                 return NoContent();
             }
             catch (Exception e)
@@ -78,12 +78,12 @@ namespace minimal_api.Controllers
 
         //************************* PUT (ATUALIZAR) **************************
         [HttpPut]
-        public async Task<ActionResult> Update(Product product)
+        public async Task<ActionResult> Update(Client client)
         {
             try
             {
-                var filter = Builders<Product>.Filter.Eq(z => z.Id, product.Id);
-                await _product.ReplaceOneAsync(filter, product);
+                var filter = Builders<Client>.Filter.Eq(z => z.Id, client.Id);
+                await _client.ReplaceOneAsync(filter, client);
 
                 return Ok();
             }
@@ -99,8 +99,8 @@ namespace minimal_api.Controllers
         {
             try
             {
-                var product = await _product.Find(x => x.Id == id).FirstOrDefaultAsync();
-                return product is not null ? Ok(product) : NoContent();
+                var client = await _client.Find(x => x.Id == id).FirstOrDefaultAsync();
+                return client is not null ? Ok(client) : NoContent();
             }
             catch (Exception e)
             {
@@ -108,8 +108,5 @@ namespace minimal_api.Controllers
             }
 
         }
-
     }
-
 }
-

@@ -8,49 +8,49 @@ namespace minimal_api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class UserController : ControllerBase
     {
-        private readonly IMongoCollection<Product> _product;
+        private readonly IMongoCollection<User> _user;
 
         /// <summary>
         /// Construtor que recebe como dependencia o objeto da classe MongoDbService
         /// </summary>
         /// <param name="mongoDbService"></param>
-        public ProductController(MongoDbService mongoDbService)
+        public UserController(MongoDbService mongoDbService)
         {
-            _product = mongoDbService.GetDatabase.GetCollection<Product>("product");
-        }
-
-        //************************** GET (LISTAR) *****************************
-        [HttpGet]
-        public async Task<ActionResult<List<Product>>> Get()
-        {
-            try
-            {
-                var products = await _product.Find(FilterDefinition<Product>.Empty).ToListAsync();
-                return Ok(products);
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
+            _user = mongoDbService.GetDatabase.GetCollection<User>("user");
         }
 
         //*************************** POST (CADASTRAR) ****************************
         [HttpPost]
-        public async Task<IActionResult> Post(Product product)
+        public async Task<IActionResult> Post(User user)
         {
             try
             {
-                await _product.InsertOneAsync(product);
+                await _user.InsertOneAsync(user);
 
-                return StatusCode(201, product);
+                return StatusCode(201, user);
             }
             catch (Exception e)
             {
                 return BadRequest(e.Message);
             }
 
+        }
+
+        //************************** GET (LISTAR) *****************************
+        [HttpGet]
+        public async Task<ActionResult> Get()
+        {
+            try
+            {
+                var users = await _user.Find(FilterDefinition<User>.Empty).ToListAsync();
+                return Ok(users);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
         }
 
         //************************* DELETE **************************
@@ -60,14 +60,14 @@ namespace minimal_api.Controllers
         {
             try
             {
-                var product = await _product.FindAsync(z => z.Id == id);
+                var user = await _user.FindAsync(z => z.Id == id);
 
-                if (product == null)
+                if (user == null)
                 {
                     return BadRequest("Objeto nao encontrado");
                 }
 
-                await _product.DeleteOneAsync(x => x.Id == id);
+                await _user.DeleteOneAsync(x => x.Id == id);
                 return NoContent();
             }
             catch (Exception e)
@@ -78,12 +78,12 @@ namespace minimal_api.Controllers
 
         //************************* PUT (ATUALIZAR) **************************
         [HttpPut]
-        public async Task<ActionResult> Update(Product product)
+        public async Task<ActionResult> Update(User user)
         {
             try
             {
-                var filter = Builders<Product>.Filter.Eq(z => z.Id, product.Id);
-                await _product.ReplaceOneAsync(filter, product);
+                var filter = Builders<User>.Filter.Eq(z => z.Id, user.Id);
+                await _user.ReplaceOneAsync(filter, user);
 
                 return Ok();
             }
@@ -99,8 +99,8 @@ namespace minimal_api.Controllers
         {
             try
             {
-                var product = await _product.Find(x => x.Id == id).FirstOrDefaultAsync();
-                return product is not null ? Ok(product) : NoContent();
+                var user = await _user.Find(x => x.Id == id).FirstOrDefaultAsync();
+                return user is not null ? Ok(user) : NoContent();
             }
             catch (Exception e)
             {
@@ -108,8 +108,5 @@ namespace minimal_api.Controllers
             }
 
         }
-
     }
-
 }
-
