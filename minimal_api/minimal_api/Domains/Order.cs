@@ -15,6 +15,12 @@ namespace minimal_api.Domains
         [BsonElement("status")]
         public string? Status {  get; set; }
 
+        //[BsonElement("product")]
+        //public Product? Product { get; set; }
+
+        //[BsonElement("client")]
+        //public Client? Client { get; set; }
+
         public Dictionary<string, string> AdditionalAttributes { get; set; }
 
         public Order()
