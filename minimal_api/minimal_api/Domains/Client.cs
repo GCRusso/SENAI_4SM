@@ -21,6 +21,8 @@ namespace minimal_api.Domains
         [BsonElement("address")]
         public string? Address { get; set; }
 
+        public User? user { get; set; }
+
         public Dictionary<string, string> AdditionalAttributes { get; set; }
 
         public Client()

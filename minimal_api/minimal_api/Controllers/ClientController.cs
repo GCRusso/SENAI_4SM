@@ -11,6 +11,7 @@ namespace minimal_api.Controllers
     public class ClientController : ControllerBase
     {
         private readonly IMongoCollection<Client> _client;
+        private readonly IMongoCollection<User> _user;
 
         /// <summary>
         /// Construtor que recebe como dependencia o objeto da classe MongoDbService
@@ -18,6 +19,7 @@ namespace minimal_api.Controllers
         /// <param name="mongoDbService"></param>
         public ClientController(MongoDbService mongoDbService)
         {
+            _user = mongoDbService.GetDatabase.GetCollection<User>("user");
             _client = mongoDbService.GetDatabase.GetCollection<Client>("client");
         }
 
