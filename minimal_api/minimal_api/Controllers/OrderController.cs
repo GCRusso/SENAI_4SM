@@ -33,18 +33,18 @@ namespace minimal_api.Controllers
             try
             {
                 Order order = new Order();
-               
+
                 order.Id = orderViewModel.Id;
                 order.Date = orderViewModel.Date;
                 order.Status = orderViewModel.Status;
-                order.ProductId= orderViewModel.ProductId;
+                order.ProductId = orderViewModel.ProductId;
                 order.ClientId = orderViewModel.ClientId;
 
                 //ira buscar na collection _client e verificar se o Id que foi passado existe, se existir guarde na variavel client'
                 var client = await _client.Find(x => x.Id == order.ClientId).FirstOrDefaultAsync();
 
-                if(client == null)
-                { 
+                if (client == null)
+                {
                     return NotFound();
                 }
 
@@ -70,32 +70,33 @@ namespace minimal_api.Controllers
         {
             try
             {
+                //Filtro de pesquisa
                 var orders = await _order.Find(x => true).ToListAsync();
                 var client = await _client.Find(x => true).ToListAsync();
 
                 // Incluir produtos em cada pedido
                 foreach (var order in orders)
-                { 
+                {
                     order.Products = await _product.Find(x => order.ProductId!.Contains(x.Id!)).ToListAsync();
-                   
                 }
 
                 return Ok(orders);
             }
             catch (Exception e)
             {
-            return BadRequest(e.Message);}
+                return BadRequest(e.Message);
+            }
         }
 
         //************************* DELETE **************************
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete (string id)
+        public async Task<IActionResult> Delete(string id)
         {
             try
             {
                 var order = await _order.FindAsync(z => z.Id == id);
 
-                if(order == null)
+                if (order == null)
                 {
                     return BadRequest("Objeto nao encontrado");
                 }
@@ -152,7 +153,7 @@ namespace minimal_api.Controllers
             {
                 var orderFind = await _order.Find(x => x.Id == id).FirstOrDefaultAsync();
 
-                if(orderFind == null)
+                if (orderFind == null)
                 {
                     return NotFound("Não foi possível localizar a ordem");
                 }
@@ -171,5 +172,43 @@ namespace minimal_api.Controllers
                 return BadRequest(e.Message);
             }
         }
+
+        /*
+        //**************************** EXEMPLO DO PROFESSOR **************************
+        public async Task<ActionResult<List<Order>>> Get()
+        {
+            try
+            {
+                //lista todos os pedidos da collection "Order"
+                var orders = await _order.Find(FilterDefinition<Order>.Empty).ToListAsync();
+
+                //percorre todos os itens da lista
+                foreach (var order in orders)
+                {
+                    if(order.ProductId != null)
+                    {
+                        //dentro da collection "Product" faz um filtro ("separa" os produtos que estao dentro do pedido)
+                        //olha, selecione os ids dos produtos dentro da collection cujo id esta presente na lista "order.ProductId"
+                        var filter = Builders<Product>.Filter.In(p => p.Id, order.ProductId);
+
+                        //busca os produtos correspondentes ao pedido e adiciona em "order.Products"
+                        //traz as informacoes dos produtos
+                        order.Products = await _product.Find(filter).ToListAsync();
+                    }
+
+                    //Busca e associa o cliente correspondente ao pedido
+                    if(order.ClientId != null)
+                    {
+                        order.Client = await _client.Find(x => x.Id == order.ClientId).FirstOrDefaultAsync();
+                    }
+                }
+                return Ok(order);
+            }
+            catch(Exception e) 
+            {
+                return BadRequest(e.Message);
+            }
+        }
+        */
     }
 }
