@@ -76,7 +76,7 @@ namespace minimal_api.Controllers
                 // Incluir produtos em cada pedido
                 foreach (var order in orders)
                 { 
-                    order.Products = await _product.Find(x => order.ProductId!.Contains(x.Id)).ToListAsync();
+                    order.Products = await _product.Find(x => order.ProductId!.Contains(x.Id!)).ToListAsync();
                    
                 }
 
@@ -119,7 +119,7 @@ namespace minimal_api.Controllers
 
                 if (order == null)
                 {
-                    return NotFound("Nao foi possivel localizar a ordem");
+                    return NotFound("Não foi possível localizar a ordem");
                 }
 
                 order.Date = orderViewModel.Date;
@@ -150,8 +150,21 @@ namespace minimal_api.Controllers
         {
             try
             {
-                var order = await _order.Find(x => x.Id == id).FirstOrDefaultAsync();
-                return order is not null ? Ok(order) : NoContent();
+                var orderFind = await _order.Find(x => x.Id == id).FirstOrDefaultAsync();
+
+                if(orderFind == null)
+                {
+                    return NotFound("Não foi possível localizar a ordem");
+                }
+
+
+                var client = await _client.Find(x => x.Id == orderFind.ClientId).FirstOrDefaultAsync();
+                var products = await _product.Find(x => orderFind.ProductId!.Contains(x.Id!)).ToListAsync();
+
+                orderFind.Client = client;
+                orderFind.Products = products;
+
+                return orderFind is not null ? Ok(orderFind) : NoContent();
             }
             catch (Exception e)
             {
