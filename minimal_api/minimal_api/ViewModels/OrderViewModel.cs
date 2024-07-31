@@ -18,9 +18,9 @@ namespace minimal_api.Domains
         [BsonElement("status")]
         public string? Status { get; set; }
 
-        [BsonElement("products")]
         [BsonIgnore]
         [JsonIgnore]
+        [BsonElement("products")]
         public List<Product>? Products { get; set; }
 
         [BsonElement("productId")]

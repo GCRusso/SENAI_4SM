@@ -71,8 +71,14 @@ namespace minimal_api.Controllers
             try
             {
                 var orders = await _order.Find(x => true).ToListAsync();
-                var product = await _product.Find(x => true).ToListAsync();
                 var client = await _client.Find(x => true).ToListAsync();
+
+                // Incluir produtos em cada pedido
+                foreach (var order in orders)
+                { 
+                    order.Products = await _product.Find(x => order.ProductId!.Contains(x.Id)).ToListAsync();
+                   
+                }
 
                 return Ok(orders);
             }
@@ -104,19 +110,37 @@ namespace minimal_api.Controllers
         }
 
         //*************************** PUT (ATUALIZAR) ***********************
-        [HttpPut]
-        public async Task<ActionResult> Update(Order order)
+        [HttpPut("{id}")]
+        public async Task<ActionResult> Update(string id, OrderViewModel orderViewModel)
         {
             try
             {
-                var filter = Builders<Order>.Filter.Eq(z => z.Id, order.Id);
-                await _order.ReplaceOneAsync(filter, order);
+                var order = await _order.Find(x => x.Id == id).FirstOrDefaultAsync();
 
-                return Ok();
+                if (order == null)
+                {
+                    return NotFound("Nao foi possivel localizar a ordem");
+                }
+
+                order.Date = orderViewModel.Date;
+                order.Status = orderViewModel.Status;
+                order.ProductId = orderViewModel.ProductId;
+                order.ClientId = orderViewModel.ClientId;
+
+                var client = await _client.Find(x => x.Id == order.ClientId).FirstOrDefaultAsync();
+
+
+                order.Client = client;
+                order.Products = await _product.Find(x => order.ProductId!.Contains(x.Id!)).ToListAsync();
+
+                var filter = Builders<Order>.Filter.Eq(z => z.Id, id);
+                await _order!.ReplaceOneAsync(filter, order);
+
+                return Ok(order);
             }
-            catch (Exception e) 
+            catch (Exception e)
             {
-              return BadRequest(e.Message);
+                return BadRequest(e.Message);
             }
         }
 

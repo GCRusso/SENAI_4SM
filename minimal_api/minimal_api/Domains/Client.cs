@@ -1,5 +1,6 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
+using System.Text.Json.Serialization;
 
 namespace minimal_api.Domains
 {
@@ -21,6 +22,7 @@ namespace minimal_api.Domains
         [BsonElement("address")]
         public string? Address { get; set; }
 
+        [JsonIgnore]
         public User? user { get; set; }
 
         public Dictionary<string, string> AdditionalAttributes { get; set; }
