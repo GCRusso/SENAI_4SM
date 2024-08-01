@@ -174,7 +174,7 @@ namespace minimal_api.Controllers
         }
 
         /*
-        //**************************** EXEMPLO DO PROFESSOR **************************
+        //**************************** EXEMPLO DO PROFESSOR GET **************************
         public async Task<ActionResult<List<Order>>> Get()
         {
             try
