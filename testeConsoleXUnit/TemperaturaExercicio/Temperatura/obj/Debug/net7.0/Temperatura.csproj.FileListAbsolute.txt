@@ -1,0 +1,15 @@
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\bin\Debug\net7.0\Temperatura.exe
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\bin\Debug\net7.0\Temperatura.deps.json
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\bin\Debug\net7.0\Temperatura.runtimeconfig.json
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\bin\Debug\net7.0\Temperatura.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\bin\Debug\net7.0\Temperatura.pdb
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\obj\Debug\net7.0\Temperatura.csproj.AssemblyReference.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\obj\Debug\net7.0\Temperatura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\obj\Debug\net7.0\Temperatura.AssemblyInfoInputs.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\obj\Debug\net7.0\Temperatura.AssemblyInfo.cs
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\obj\Debug\net7.0\Temperatura.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\obj\Debug\net7.0\Temperatura.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\obj\Debug\net7.0\refint\Temperatura.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\obj\Debug\net7.0\Temperatura.pdb
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\obj\Debug\net7.0\Temperatura.genruntimeconfig.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\TemperaturaExercicio\Temperatura\obj\Debug\net7.0\ref\Temperatura.dll

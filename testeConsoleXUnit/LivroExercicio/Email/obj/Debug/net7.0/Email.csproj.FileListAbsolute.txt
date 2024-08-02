@@ -1,0 +1,15 @@
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\bin\Debug\net7.0\Email.exe
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\bin\Debug\net7.0\Email.deps.json
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\bin\Debug\net7.0\Email.runtimeconfig.json
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\bin\Debug\net7.0\Email.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\bin\Debug\net7.0\Email.pdb
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\obj\Debug\net7.0\Email.csproj.AssemblyReference.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\obj\Debug\net7.0\Email.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\obj\Debug\net7.0\Email.AssemblyInfoInputs.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\obj\Debug\net7.0\Email.AssemblyInfo.cs
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\obj\Debug\net7.0\Email.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\obj\Debug\net7.0\Email.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\obj\Debug\net7.0\refint\Email.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\obj\Debug\net7.0\Email.pdb
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\obj\Debug\net7.0\Email.genruntimeconfig.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\LivroExercicio\Email\obj\Debug\net7.0\ref\Email.dll

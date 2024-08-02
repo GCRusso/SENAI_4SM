@@ -1,0 +1,15 @@
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\bin\Debug\net7.0\Calculos.exe
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\bin\Debug\net7.0\Calculos.deps.json
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\bin\Debug\net7.0\Calculos.runtimeconfig.json
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\bin\Debug\net7.0\Calculos.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\bin\Debug\net7.0\Calculos.pdb
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\obj\Debug\net7.0\Calculos.csproj.AssemblyReference.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\obj\Debug\net7.0\Calculos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\obj\Debug\net7.0\Calculos.AssemblyInfoInputs.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\obj\Debug\net7.0\Calculos.AssemblyInfo.cs
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\obj\Debug\net7.0\Calculos.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\obj\Debug\net7.0\Calculos.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\obj\Debug\net7.0\refint\Calculos.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\obj\Debug\net7.0\Calculos.pdb
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\obj\Debug\net7.0\Calculos.genruntimeconfig.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\testeConsoleXUnit\Calculos\obj\Debug\net7.0\ref\Calculos.dll
