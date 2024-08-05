@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "uF5HLTwRLp0dET//mv+x2x9K4TuW5Ms37IGzFUPpaGM=",
+  "Source": "PharmacyAPI_Test",
+  "BasePath": "_content/PharmacyAPI_Test",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
