@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\PharmacyAPI_Test.csproj": {}
+    "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\PharmacyAPI_Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\PharmacyAPI_Test.csproj": {
+    "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\PharmacyAPI_Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\PharmacyAPI_Test.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\PharmacyAPI_Test.csproj",
         "projectName": "PharmacyAPI_Test",
-        "projectPath": "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\PharmacyAPI_Test.csproj",
-        "packagesPath": "C:\\Users\\23655858841\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\obj\\",
+        "projectPath": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\PharmacyAPI_Test.csproj",
+        "packagesPath": "C:\\Users\\Gabriel.Russo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\23655858841\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Gabriel.Russo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,26 +43,6 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.7, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer.Design": {
-              "target": "Package",
-              "version": "[1.1.6, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.7, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.7.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -70,15 +54,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
