@@ -19,7 +19,7 @@ namespace PharmacyAPI_Test.Repositories
         //*************************** ATUALIZAR ***************************
         public void Atualizar(Guid id, ProductsDomain products)
         {
-            ProductsDomain productFind = _productContext.Products.Find(id)!;
+            ProductsDomain productFind = _productContext.ProductsDomain.Find(id)!;
             if (productFind != null) 
             {
                 productFind.Name = products.Name;
@@ -38,7 +38,7 @@ namespace PharmacyAPI_Test.Repositories
         {
             try
             {
-                ProductsDomain productFind = _productContext.Products
+                ProductsDomain productFind = _productContext.ProductsDomain
                     .Select( u => new ProductsDomain
                     {
                         IdProduct = u.IdProduct,
@@ -61,7 +61,7 @@ namespace PharmacyAPI_Test.Repositories
         //*************************** CADASTRAR ***************************
         public void Cadastrar(ProductsDomain products)
         {
-            _productContext.Products.Add(products);
+            _productContext.ProductsDomain.Add(products);
 
             _productContext.SaveChanges();
         }
@@ -69,10 +69,10 @@ namespace PharmacyAPI_Test.Repositories
         //*************************** DELETAR POR ID ***************************
         public void Deletar(Guid id)
         {
-            ProductsDomain products = _productContext.Products.Find(id);
+            ProductsDomain products = _productContext.ProductsDomain.Find(id);
             if (products != null) 
             {
-                _productContext.Products.Remove(products);
+                _productContext.ProductsDomain.Remove(products);
             }
             else
             {
@@ -85,7 +85,7 @@ namespace PharmacyAPI_Test.Repositories
         //*************************** LISTAR TODOS ***************************
         public List<ProductsDomain> Listar()
         {
-           return _productContext.Products.ToList();
+           return _productContext.ProductsDomain.ToList();
         }
     }
 }

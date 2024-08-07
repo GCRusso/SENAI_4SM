@@ -138,3 +138,5 @@ C:\Users\23655858841\Desktop\SENAI_4SM\pharmacyaAPI_Test\PharmacyAPI_Test\obj\De
 C:\Users\23655858841\Desktop\SENAI_4SM\pharmacyaAPI_Test\PharmacyAPI_Test\obj\Debug\net8.0\PharmacyAPI_Test.pdb
 C:\Users\23655858841\Desktop\SENAI_4SM\pharmacyaAPI_Test\PharmacyAPI_Test\obj\Debug\net8.0\PharmacyAPI_Test.genruntimeconfig.cache
 C:\Users\23655858841\Desktop\SENAI_4SM\pharmacyaAPI_Test\PharmacyAPI_Test\obj\Debug\net8.0\ref\PharmacyAPI_Test.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\pharmacyaAPI_Test\PharmacyAPI_Test\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\pharmacyaAPI_Test\PharmacyAPI_Test\bin\Debug\net8.0\Moq.dll

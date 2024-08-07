@@ -2,27 +2,41 @@
 using Microsoft.AspNetCore.Mvc;
 using PharmacyAPI_Test.Context;
 using PharmacyAPI_Test.Domains;
+using PharmacyAPI_Test.Interfaces;
+using PharmacyAPI_Test.Repositories;
 
 namespace PharmacyAPI_Test.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     [Produces("application/json")]
+
     public class ProductController : ControllerBase
     {
+
+        private IProductsRepository _productRepository;
+
+        public ProductController()
+        {
+            _productRepository = new ProductsRepository();
+        }
+
         //**************************** LISTAR TODOS **************************
         [HttpGet]
         public IActionResult Get()
         {
             try
             {
-                return Ok(_productContext.Listar());
+                List<ProductsDomain> lista = new List<ProductsDomain>();
+                lista = _productRepository.Listar();
+                return Ok(lista);
             }
             catch (Exception erro)
             {
                 return BadRequest(erro.Message);
             }
         }
+
 
         //**************************** CADASTRAR **************************
         [HttpPost]
@@ -31,7 +45,7 @@ namespace PharmacyAPI_Test.Controllers
         {
             try
             {
-                _productContext.Cadastrar(products);
+                _productRepository.Cadastrar(products);
 
                 return StatusCode(201);
             }
@@ -48,7 +62,7 @@ namespace PharmacyAPI_Test.Controllers
         {
             try
             {
-                return Ok(_productContext.BuscarPorId(id));
+                return Ok(_productRepository.BuscarPorId(id));
             }
             catch (Exception erro)
             {
@@ -62,7 +76,7 @@ namespace PharmacyAPI_Test.Controllers
         {
             try
             {
-                _productContext.Deletar(id);
+                _productRepository.Deletar(id);
 
                 return StatusCode(204);
             }
@@ -80,7 +94,7 @@ namespace PharmacyAPI_Test.Controllers
         {
             try
             {
-                _productContext.Atualizar(id, products);
+                _productRepository.Atualizar(id, products);
                 return StatusCode(200);
             }
             catch (Exception erro)
