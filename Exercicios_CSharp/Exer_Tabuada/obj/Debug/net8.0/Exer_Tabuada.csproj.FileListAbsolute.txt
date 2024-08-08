@@ -1,0 +1,15 @@
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\bin\Debug\net8.0\Exer_Tabuada.exe
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\bin\Debug\net8.0\Exer_Tabuada.deps.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\bin\Debug\net8.0\Exer_Tabuada.runtimeconfig.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\bin\Debug\net8.0\Exer_Tabuada.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\bin\Debug\net8.0\Exer_Tabuada.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\obj\Debug\net8.0\Exer_Tabuada.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\obj\Debug\net8.0\Exer_Tabuada.AssemblyInfoInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\obj\Debug\net8.0\Exer_Tabuada.AssemblyInfo.cs
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\obj\Debug\net8.0\Exer_Tabuada.csproj.CoreCompileInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\obj\Debug\net8.0\Exer_Tabuada.sourcelink.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\obj\Debug\net8.0\Exer_Tabuada.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\obj\Debug\net8.0\refint\Exer_Tabuada.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\obj\Debug\net8.0\Exer_Tabuada.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\obj\Debug\net8.0\Exer_Tabuada.genruntimeconfig.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Tabuada\obj\Debug\net8.0\ref\Exer_Tabuada.dll

@@ -1,0 +1,15 @@
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\bin\Debug\net8.0\Exer_.exe
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\bin\Debug\net8.0\Exer_.deps.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\bin\Debug\net8.0\Exer_.runtimeconfig.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\bin\Debug\net8.0\Exer_.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\bin\Debug\net8.0\Exer_.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\obj\Debug\net8.0\Exer_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\obj\Debug\net8.0\Exer_.AssemblyInfoInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\obj\Debug\net8.0\Exer_.AssemblyInfo.cs
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\obj\Debug\net8.0\Exer_.csproj.CoreCompileInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\obj\Debug\net8.0\Exer_.sourcelink.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\obj\Debug\net8.0\Exer_.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\obj\Debug\net8.0\refint\Exer_.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\obj\Debug\net8.0\Exer_.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\obj\Debug\net8.0\Exer_.genruntimeconfig.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_\obj\Debug\net8.0\ref\Exer_.dll

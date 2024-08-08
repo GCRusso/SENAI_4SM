@@ -1,0 +1,15 @@
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\bin\Debug\net8.0\Exer_NotaAluno.exe
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\bin\Debug\net8.0\Exer_NotaAluno.deps.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\bin\Debug\net8.0\Exer_NotaAluno.runtimeconfig.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\bin\Debug\net8.0\Exer_NotaAluno.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\bin\Debug\net8.0\Exer_NotaAluno.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\obj\Debug\net8.0\Exer_NotaAluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\obj\Debug\net8.0\Exer_NotaAluno.AssemblyInfoInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\obj\Debug\net8.0\Exer_NotaAluno.AssemblyInfo.cs
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\obj\Debug\net8.0\Exer_NotaAluno.csproj.CoreCompileInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\obj\Debug\net8.0\Exer_NotaAluno.sourcelink.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\obj\Debug\net8.0\Exer_NotaAluno.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\obj\Debug\net8.0\refint\Exer_NotaAluno.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\obj\Debug\net8.0\Exer_NotaAluno.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\obj\Debug\net8.0\Exer_NotaAluno.genruntimeconfig.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_NotaAluno\obj\Debug\net8.0\ref\Exer_NotaAluno.dll

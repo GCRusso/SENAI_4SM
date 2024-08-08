@@ -1,0 +1,15 @@
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\bin\Debug\net8.0\Exer_Somade1a100.exe
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\bin\Debug\net8.0\Exer_Somade1a100.deps.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\bin\Debug\net8.0\Exer_Somade1a100.runtimeconfig.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\bin\Debug\net8.0\Exer_Somade1a100.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\bin\Debug\net8.0\Exer_Somade1a100.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\obj\Debug\net8.0\Exer_Somade1a100.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\obj\Debug\net8.0\Exer_Somade1a100.AssemblyInfoInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\obj\Debug\net8.0\Exer_Somade1a100.AssemblyInfo.cs
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\obj\Debug\net8.0\Exer_Somade1a100.csproj.CoreCompileInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\obj\Debug\net8.0\Exer_Somade1a100.sourcelink.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\obj\Debug\net8.0\Exer_Somade1a100.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\obj\Debug\net8.0\refint\Exer_Somade1a100.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\obj\Debug\net8.0\Exer_Somade1a100.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\obj\Debug\net8.0\Exer_Somade1a100.genruntimeconfig.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exer_Somade1a100\obj\Debug\net8.0\ref\Exer_Somade1a100.dll
