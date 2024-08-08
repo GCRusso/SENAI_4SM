@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6DE303-77DD-4502-9F6F-4ECAFF2D6D86}|..\\PharmacyTest_Xunit\\PharmacyTest_Xunit.csproj|c:\\users\\gabriel.russo\\desktop\\senai_4sm\\pharmacyaapi_test\\pharmacytest_xunit\\pharmacy_test_unit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E6DE303-77DD-4502-9F6F-4ECAFF2D6D86}|..\\PharmacyTest_Xunit\\PharmacyTest_Xunit.csproj|c:\\users\\gabriel.russo\\desktop\\senai_4sm\\pharmacyaapi_test\\pharmacytest_xunit\\pharmacytest_xunit.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDE6D67-470D-4C06-BC53-59AC2E1F5964}|PharmacyAPI_Test.csproj|c:\\users\\gabriel.russo\\desktop\\senai_4sm\\pharmacyaapi_test\\pharmacyapi_test\\pharmacyapi_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FDDE6D67-470D-4C06-BC53-59AC2E1F5964}|PharmacyAPI_Test.csproj|solutionrelative:pharmacyapi_test.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Migrations\\20240808062109_PharmacyAPITest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240808062109_PharmacyAPITest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDE6D67-470D-4C06-BC53-59AC2E1F5964}|PharmacyAPI_Test.csproj|c:\\users\\gabriel.russo\\desktop\\senai_4sm\\pharmacyaapi_test\\pharmacyapi_test\\context\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDE6D67-470D-4C06-BC53-59AC2E1F5964}|PharmacyAPI_Test.csproj|solutionrelative:context\\productcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDE6D67-470D-4C06-BC53-59AC2E1F5964}|PharmacyAPI_Test.csproj|c:\\users\\gabriel.russo\\desktop\\senai_4sm\\pharmacyaapi_test\\pharmacyapi_test\\interfaces\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDE6D67-470D-4C06-BC53-59AC2E1F5964}|PharmacyAPI_Test.csproj|solutionrelative:interfaces\\iproductsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDE6D67-470D-4C06-BC53-59AC2E1F5964}|PharmacyAPI_Test.csproj|c:\\users\\gabriel.russo\\desktop\\senai_4sm\\pharmacyaapi_test\\pharmacyapi_test\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDE6D67-470D-4C06-BC53-59AC2E1F5964}|PharmacyAPI_Test.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDDE6D67-470D-4C06-BC53-59AC2E1F5964}|PharmacyAPI_Test.csproj|c:\\users\\gabriel.russo\\desktop\\senai_4sm\\pharmacyaapi_test\\pharmacyapi_test\\repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDDE6D67-470D-4C06-BC53-59AC2E1F5964}|PharmacyAPI_Test.csproj|solutionrelative:repositories\\productsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240808062109_PharmacyAPITest.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Migrations\\20240808062109_PharmacyAPITest.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240808062109_PharmacyAPITest.cs",
+              "ToolTip": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Migrations\\20240808062109_PharmacyAPITest.cs",
+              "RelativeToolTip": "Migrations\\20240808062109_PharmacyAPITest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T06:21:10.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Context\\ProductContext.cs",
+              "RelativeDocumentMoniker": "Context\\ProductContext.cs",
+              "ToolTip": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Context\\ProductContext.cs",
+              "RelativeToolTip": "Context\\ProductContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:30:10.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PharmacyAPI_Test.csproj",
+              "DocumentMoniker": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\PharmacyAPI_Test.csproj",
+              "RelativeDocumentMoniker": "PharmacyAPI_Test.csproj",
+              "ToolTip": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\PharmacyAPI_Test.csproj",
+              "RelativeToolTip": "PharmacyAPI_Test.csproj",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAwwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T06:10:57.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PharmacyTest_Xunit.csproj",
+              "DocumentMoniker": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyTest_Xunit\\PharmacyTest_Xunit.csproj",
+              "RelativeDocumentMoniker": "..\\PharmacyTest_Xunit\\PharmacyTest_Xunit.csproj",
+              "ToolTip": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyTest_Xunit\\PharmacyTest_Xunit.csproj",
+              "RelativeToolTip": "..\\PharmacyTest_Xunit\\PharmacyTest_Xunit.csproj",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAuwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-08T06:10:58.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pharmacy_Test_Unit.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyTest_Xunit\\Pharmacy_Test_Unit.cs",
+              "RelativeDocumentMoniker": "..\\PharmacyTest_Xunit\\Pharmacy_Test_Unit.cs",
+              "ToolTip": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyTest_Xunit\\Pharmacy_Test_Unit.cs",
+              "RelativeToolTip": "..\\PharmacyTest_Xunit\\Pharmacy_Test_Unit.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAmwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:22:49.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProductsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Interfaces\\IProductsRepository.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IProductsRepository.cs",
+              "ToolTip": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Interfaces\\IProductsRepository.cs",
+              "RelativeToolTip": "Interfaces\\IProductsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:22:50.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAnwB0AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:22:50.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Repositories\\ProductsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ProductsRepository.cs",
+              "ToolTip": "C:\\Users\\Gabriel.Russo\\Desktop\\SENAI_4SM\\pharmacyaAPI_Test\\PharmacyAPI_Test\\Repositories\\ProductsRepository.cs",
+              "RelativeToolTip": "Repositories\\ProductsRepository.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAMwEkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-08T02:22:50.218Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

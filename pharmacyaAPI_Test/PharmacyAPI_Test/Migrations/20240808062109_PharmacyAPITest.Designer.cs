@@ -12,7 +12,7 @@ using PharmacyAPI_Test.Context;
 namespace PharmacyAPI_Test.Migrations
 {
     [DbContext(typeof(ProductContext))]
-    [Migration("20240805133311_PharmacyAPITest")]
+    [Migration("20240808062109_PharmacyAPITest")]
     partial class PharmacyAPITest
     {
         /// <inheritdoc />
