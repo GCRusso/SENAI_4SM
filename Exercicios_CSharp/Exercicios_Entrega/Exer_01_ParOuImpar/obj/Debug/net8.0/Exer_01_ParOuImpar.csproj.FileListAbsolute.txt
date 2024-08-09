@@ -1,0 +1,15 @@
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\bin\Debug\net8.0\Exer_01_ParOuImpar.exe
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\bin\Debug\net8.0\Exer_01_ParOuImpar.deps.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\bin\Debug\net8.0\Exer_01_ParOuImpar.runtimeconfig.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\bin\Debug\net8.0\Exer_01_ParOuImpar.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\bin\Debug\net8.0\Exer_01_ParOuImpar.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\obj\Debug\net8.0\Exer_01_ParOuImpar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\obj\Debug\net8.0\Exer_01_ParOuImpar.AssemblyInfoInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\obj\Debug\net8.0\Exer_01_ParOuImpar.AssemblyInfo.cs
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\obj\Debug\net8.0\Exer_01_ParOuImpar.csproj.CoreCompileInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\obj\Debug\net8.0\Exer_01_ParOuImpar.sourcelink.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\obj\Debug\net8.0\Exer_01_ParOuImpar.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\obj\Debug\net8.0\refint\Exer_01_ParOuImpar.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\obj\Debug\net8.0\Exer_01_ParOuImpar.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\obj\Debug\net8.0\Exer_01_ParOuImpar.genruntimeconfig.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_01_ParOuImpar\obj\Debug\net8.0\ref\Exer_01_ParOuImpar.dll

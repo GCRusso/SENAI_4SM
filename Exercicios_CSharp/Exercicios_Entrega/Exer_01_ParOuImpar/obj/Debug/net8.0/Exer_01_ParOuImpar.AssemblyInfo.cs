@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Exer_Somade1a100")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Exer_01_ParOuImpar")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42ae49e55e02b84b9cf7cbd121f3d65fbcddf25f")]
-[assembly: System.Reflection.AssemblyProductAttribute("Exer_Somade1a100")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Exer_Somade1a100")]
+[assembly: System.Reflection.AssemblyProductAttribute("Exer_01_ParOuImpar")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Exer_01_ParOuImpar")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

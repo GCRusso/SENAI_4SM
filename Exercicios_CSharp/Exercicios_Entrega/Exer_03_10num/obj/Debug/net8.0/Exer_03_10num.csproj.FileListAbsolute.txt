@@ -1,0 +1,15 @@
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\bin\Debug\net8.0\Exer_03_10num.exe
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\bin\Debug\net8.0\Exer_03_10num.deps.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\bin\Debug\net8.0\Exer_03_10num.runtimeconfig.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\bin\Debug\net8.0\Exer_03_10num.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\bin\Debug\net8.0\Exer_03_10num.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\obj\Debug\net8.0\Exer_03_10num.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\obj\Debug\net8.0\Exer_03_10num.AssemblyInfoInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\obj\Debug\net8.0\Exer_03_10num.AssemblyInfo.cs
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\obj\Debug\net8.0\Exer_03_10num.csproj.CoreCompileInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\obj\Debug\net8.0\Exer_03_10num.sourcelink.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\obj\Debug\net8.0\Exer_03_10num.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\obj\Debug\net8.0\refint\Exer_03_10num.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\obj\Debug\net8.0\Exer_03_10num.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\obj\Debug\net8.0\Exer_03_10num.genruntimeconfig.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_03_10num\obj\Debug\net8.0\ref\Exer_03_10num.dll

@@ -1,0 +1,15 @@
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\bin\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.exe
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\bin\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.deps.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\bin\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.runtimeconfig.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\bin\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\bin\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\obj\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\obj\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.AssemblyInfoInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\obj\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.AssemblyInfo.cs
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\obj\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.csproj.CoreCompileInputs.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\obj\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.sourcelink.json
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\obj\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\obj\Debug\net8.0\refint\Exer_02_NomesOrdemAlfabetica.dll
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\obj\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.pdb
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\obj\Debug\net8.0\Exer_02_NomesOrdemAlfabetica.genruntimeconfig.cache
+C:\Users\23655858841\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_02_NomesOrdemAlfabetica\obj\Debug\net8.0\ref\Exer_02_NomesOrdemAlfabetica.dll
