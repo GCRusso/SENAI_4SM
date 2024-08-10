@@ -1,0 +1,15 @@
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\bin\Debug\net8.0\Exer_05_.exe
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\bin\Debug\net8.0\Exer_05_.deps.json
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\bin\Debug\net8.0\Exer_05_.runtimeconfig.json
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\bin\Debug\net8.0\Exer_05_.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\bin\Debug\net8.0\Exer_05_.pdb
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\obj\Debug\net8.0\Exer_05_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\obj\Debug\net8.0\Exer_05_.AssemblyInfoInputs.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\obj\Debug\net8.0\Exer_05_.AssemblyInfo.cs
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\obj\Debug\net8.0\Exer_05_.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\obj\Debug\net8.0\Exer_05_.sourcelink.json
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\obj\Debug\net8.0\Exer_05_.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\obj\Debug\net8.0\refint\Exer_05_.dll
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\obj\Debug\net8.0\Exer_05_.pdb
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\obj\Debug\net8.0\Exer_05_.genruntimeconfig.cache
+C:\Users\Gabriel.Russo\Desktop\SENAI_4SM\Exercicios_CSharp\Exercicios_Entrega\Exer_05_\obj\Debug\net8.0\ref\Exer_05_.dll

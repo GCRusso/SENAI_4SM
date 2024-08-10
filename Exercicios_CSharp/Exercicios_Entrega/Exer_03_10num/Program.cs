@@ -3,16 +3,19 @@
 //Utilize um laço for para percorrer o vetor e uma estrutura condicional if para identificar os números pares.
 
 int[] numeros = new int[10];
+int pares = 0;
 
-numeros = [1,2,3,4,5,6,7,8,9,10];
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-if(numeros % 2 == 0)
+
+for (var i = 0; i < numeros.Length; i++)
 {
+
+    if (numeros[i] % 2 == 0)
+    {
+        pares += numeros[i];
+    }
 
 }
 
-foreach (var item in numeros)
-{
-
-    Console.WriteLine($"{item}");
-}
+Console.WriteLine($"A soma dos pares é {pares}");
