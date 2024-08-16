@@ -5,9 +5,176 @@
     box-sizing: border-box;
 
 }
+/* Fontes */
+@font-face {
+    font-family: newAmsterdam;
+    src: url(../assets/fonts/NewAmsterdam-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'lato-regular';
+    src: url(../assets/fonts/Lato-Regular.ttf);
+}
+
+/* classes genéricas */
+/* margem de 10% 5% de cada lado */
+.layout-grid {
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+
+}
+
+/***************** HEADER ********************/
+.background-header
+{
+    width: 100%;
+    height: 461px;
+    background-image: linear-gradient(to right bottom, #1E52B4, #002777);
+}
+
+.align-header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.space-header{
+    letter-spacing: 2px;
+    width: 420px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.logotipo{
+    font-family: "newAmsterdam";
+    color: #FFFF;
+}
+
+header nav a{
+    font-family: lato-regular;
+    text-decoration: none;
+    color: #FFFF;
+    text-transform: capitalize;
+    font-size: 14px;
+}
+
+header nav a:hover {
+    text-shadow: 3px 5px 15px white;
+}
+
+header nav a:last-of-type{
+    border: 1px solid #FFFF;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.box-text{
+    width: 435px;
+    height: 130px;
+    color: #ffff;
+    font-family: lato-regular;
+    margin-top: 120px;
+}
+
+.box-text p{
+    font-size: 18px;
+}
+
+.box-text h2{
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.align-img{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-map {
+    width: 380px;
+    height: 374px;
+}
 
 
-.title{
-    font-size: 35px;
-    color: aquamarine;
+/*************** SECTION PROCURAR HOTEL **************/
+.box-search{
+    width: 942px;
+    height: 80px;
+    border-radius: 8px;
+    background-color: #FFFF;
+    position: absolute;
+    top: 420px;
+    left:180px;
+    box-shadow: 3px 5px 10px black;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+    font-size: 16px;
+    font-family: lato-regular;
+}
+
+.vertical-line{
+    width: 2px;
+    background-color: grey;
+    height: 55px;
+}
+
+.align-search{
+    display: flex;
+    flex-direction: row;
+}
+
+.margin-search{
+    margin-left: 10px;
+}
+
+.button-search{
+    width: 160px;
+    height: 45px;
+    border-radius: 8px;
+    background-color: #009C3B;
+    border: none;
+    color: #FFFF;
+    font-size: 15px;
+}
+
+.button-search:hover{
+    box-shadow: 3px 5px 10px black;
+    cursor: pointer;
+}
+
+
+/******************* SECTION CARDS ********************/
+.card-travel{
+    width: 260px;
+    height: 270px;
+}
+
+.img-card{
+    width: 260px;
+    height: 173px;
+    border-radius: 8px;
+}
+
+.align-text-card{
+    padding: 10px 0px 10px 0;
+    font-family: lato-regular;
+    font-size: 12px;
+}
+
+.margin-p-card{
+    margin-top: 11px;
+}
+
+.column-card{
+    column-count: 4;
+    margin-top: 75px;
+    margin-bottom: 42px;
+    
 }
