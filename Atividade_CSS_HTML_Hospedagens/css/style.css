@@ -5,6 +5,7 @@
     box-sizing: border-box;
 
 }
+
 /* Fontes */
 @font-face {
     font-family: newAmsterdam;
@@ -16,24 +17,27 @@
     src: url(../assets/fonts/Lato-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'oswald';
+    src: url(../assets/fonts/Oswald-Bold.ttf);
+}
+
 /* classes genéricas */
 /* margem de 10% 5% de cada lado */
 .layout-grid {
     width: 100%;
     max-width: 1150px;
     margin: 0 auto;
-
 }
 
 /***************** HEADER ********************/
-.background-header
-{
+.background-header {
     width: 100%;
     height: 461px;
     background-image: linear-gradient(to right bottom, #1E52B4, #002777);
 }
 
-.align-header{
+.align-header {
     align-items: center;
     display: flex;
     flex-direction: row;
@@ -41,7 +45,7 @@
     padding-top: 10px;
 }
 
-.space-header{
+.space-header {
     letter-spacing: 2px;
     width: 420px;
     justify-content: space-between;
@@ -49,12 +53,12 @@
     align-items: center;
 }
 
-.logotipo{
+.logotipo {
     font-family: "newAmsterdam";
     color: #FFFF;
 }
 
-header nav a{
+header nav a {
     font-family: lato-regular;
     text-decoration: none;
     color: #FFFF;
@@ -66,13 +70,13 @@ header nav a:hover {
     text-shadow: 3px 5px 15px white;
 }
 
-header nav a:last-of-type{
+header nav a:last-of-type {
     border: 1px solid #FFFF;
     border-radius: 8px;
     padding: 5px;
 }
 
-.box-text{
+.box-text {
     width: 435px;
     height: 130px;
     color: #ffff;
@@ -80,16 +84,16 @@ header nav a:last-of-type{
     margin-top: 120px;
 }
 
-.box-text p{
+.box-text p {
     font-size: 18px;
 }
 
-.box-text h2{
+.box-text h2 {
     margin-bottom: 20px;
     font-size: 28px;
 }
 
-.align-img{
+.align-img {
     display: flex;
     justify-content: space-between;
 }
@@ -101,14 +105,14 @@ header nav a:last-of-type{
 
 
 /*************** SECTION PROCURAR HOTEL **************/
-.box-search{
+.box-search {
     width: 942px;
     height: 80px;
     border-radius: 8px;
     background-color: #FFFF;
-    position: absolute;
-    top: 420px;
-    left:180px;
+    position: relative;
+    left: 100px;
+    bottom: 42px;
     box-shadow: 3px 5px 10px black;
     flex-direction: row;
     display: flex;
@@ -119,22 +123,22 @@ header nav a:last-of-type{
     font-family: lato-regular;
 }
 
-.vertical-line{
+.vertical-line {
     width: 2px;
     background-color: grey;
     height: 55px;
 }
 
-.align-search{
+.align-search {
     display: flex;
     flex-direction: row;
 }
 
-.margin-search{
+.margin-search {
     margin-left: 10px;
 }
 
-.button-search{
+.button-search {
     width: 160px;
     height: 45px;
     border-radius: 8px;
@@ -144,37 +148,182 @@ header nav a:last-of-type{
     font-size: 15px;
 }
 
-.button-search:hover{
+.button-search:hover {
     box-shadow: 3px 5px 10px black;
     cursor: pointer;
 }
 
 
+
+
 /******************* SECTION CARDS ********************/
-.card-travel{
+.card-travel {
     width: 260px;
-    height: 270px;
+    height: 290px;
 }
 
-.img-card{
+.img-card {
     width: 260px;
     height: 173px;
     border-radius: 8px;
 }
 
-.align-text-card{
+.align-text-card {
     padding: 10px 0px 10px 0;
     font-family: lato-regular;
     font-size: 12px;
 }
 
-.margin-p-card{
+.margin-p-card {
     margin-top: 11px;
 }
 
-.column-card{
+.column-card {
     column-count: 4;
     margin-top: 75px;
     margin-bottom: 42px;
-    
 }
+
+.letter {
+    font-family: oswald;
+    font-size: 16px;
+}
+
+.align-letter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 260px;
+    justify-content: space-between;
+}
+
+/****************************** MENSAGEM E IMAGEM ************************/
+.box-h1 {
+    width: 600px;
+    height: 84px;
+    font-size: 28px;
+    color: #2E2636;
+    font-family: lato-regular;
+}
+
+.highlight {
+    color: #019438;
+
+}
+
+.highlight2 {
+    color: #FFDF00;
+}
+
+.box-p {
+    font-size: 20px;
+    font-family: lato-regular;
+    margin-top: 31px;
+}
+
+.align-img-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/****************************** FOOTER  *********************************/
+.background-footer {
+    background-image: linear-gradient(to right bottom, #009C3B, #009538);
+    width: 100%;
+    height: 163px;
+}
+
+footer h1 {
+    color: #FFFF;
+    font-size: 28px;
+    font-family: lato-regular;
+}
+
+footer p {
+    color: #FFFF;
+    font-size: 16px;
+    font-family: lato-regular;
+}
+
+.box-footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 163px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.box-yellow-footer {
+    height: 50px;
+    background-color: #FFDF00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/***** MEDIA QUERIES *****/
+
+
+
+/* smartphones >= 0 até 767px */
+@media(max-width: 767px) {
+    .layout-grid {
+        max-width: 90%;
+    }
+
+    .space-header {
+        margin-top: 20px;
+    }
+
+    .background-header {
+        height: 100px;
+    }
+
+
+    header img,
+    .box-text {
+        display: none;
+    }
+
+
+
+    main .box-search {
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        top: 15px;
+        left: 0px;
+        height: 300px;
+        padding: 20px;
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    main .column-card{
+        column-count: 1;
+        padding-left: 15%;
+        justify-content: center;
+    }
+
+    main .align-img-text{
+        flex-direction: column;
+        height: 500px;
+    }
+
+    main .box-p{
+        font-size: 18px;
+        
+    }
+
+    main .box-h1{
+        width: 100%;
+        font-size: 18px;
+        text-align: center;
+    }
