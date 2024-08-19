@@ -197,7 +197,7 @@ header nav a:last-of-type {
     justify-content: space-between;
 }
 
-/****************************** MENSAGEM E IMAGEM ************************/
+/****************************** MESAGE AND IMAGE ************************/
 .box-h1 {
     width: 600px;
     height: 84px;
@@ -278,14 +278,19 @@ footer p {
 
     .space-header {
         margin-top: 20px;
+        max-width: 100%;
     }
 
     .background-header {
         height: 100px;
     }
 
+    .align-header {
+        flex-direction: column;
+    }
 
-    header img,
+
+    .header-map,
     .box-text {
         display: none;
     }
@@ -306,24 +311,25 @@ footer p {
         display: none;
     }
 
-    main .column-card{
-        column-count: 1;
-        padding-left: 15%;
-        justify-content: center;
+    main .column-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
-    main .align-img-text{
+    main .align-img-text {
         flex-direction: column;
         height: 500px;
     }
 
-    main .box-p{
+    main .box-p {
         font-size: 18px;
-        
     }
 
-    main .box-h1{
+    main .box-h1 {
         width: 100%;
         font-size: 18px;
         text-align: center;
     }
+
+}
