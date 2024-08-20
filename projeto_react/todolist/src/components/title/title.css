@@ -1,0 +1,10 @@
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../../assets/fonts/OpenSans-Bold.ttf);
+}
+
+.title{
+    font-family: OpenSans-Bold;
+    font-size: 25px;
+    color: #FCFCFC;
+}

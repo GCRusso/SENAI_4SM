@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../../assets/fonts/Roboto-Regular.ttf);
+}
+
+.text-button{
+    font-family: Roboto-Regular;
+    font-size: 16px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 300px;
+    height: 41px;
+    color: white;
+}
+
+.box-input{
+    width: 310px;
+    height: 43px;
+    border-radius: 8px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    
+
+}
+
+input::placeholder{
+    color: #FCFCFC;
+    text-align: right;
+}
+
+input:focus{
+    outline: none;
+}
