@@ -2,7 +2,7 @@ import React from "react";
 import "./input.css"
 import { CiSearch } from "react-icons/ci";
 
-const Input = ({ type, placeholder, value }) => {
+const Input = ({ placeholder, value }) => {
 
     return (
         <>

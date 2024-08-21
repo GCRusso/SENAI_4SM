@@ -1,20 +1,33 @@
-import React from "react";
-import "./checkbox.css"
+import React, { useState } from "react";
+import "./checkbox.css";
+import { MdEdit } from "react-icons/md";
+import { MdHighlightOff } from "react-icons/md";
 
+const Checkbox = ({ checked, handleChange }) => {
+    const options = [{ text: 'Começar a execução do projeto.' }];
 
-const Checkbox = ({ checked, handleChange}) => {
-    return
-    (
-        <div>
-            <label>
-                <input 
+    const [isChecked, setIsChecked] = useState(checked);
+
+    const handleCheckboxChange = () => {
+        setIsChecked(!isChecked);
+        handleChange(!isChecked);
+    };
+
+    return (
+        <label className={`box-check ${isChecked ? 'checked' : ''}`}>
+            <input
                 type="checkbox"
-                checked={checked}
-                onChange={handleChange} 
-                />
-                Começar execução do projeto
-            </label>
-        </div>
+                checked={isChecked}
+                onChange={handleCheckboxChange}
+            />
+            {options[0].text}
+            <div className="box-icons">
+                <MdEdit
+                    size={25} />
+                <MdHighlightOff
+                    size={25} />
+            </div>
+        </label>
     );
 };
 

@@ -1,0 +1,21 @@
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url("../../assets/fonts/OpenSans-Bold.ttf");
+}
+
+.text-Button{
+    font-family: OpenSans-Bold;
+    font-size: 18px;
+    color: white;
+}
+
+.box-Button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: #6C45CE;
+    border-radius: 8px;
+    margin-top: 18px;
+    margin-left: 550px;
+    cursor: pointer;
+}

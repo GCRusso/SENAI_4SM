@@ -1,0 +1,32 @@
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(../../assets/fonts/OpenSans-Bold.ttf);
+}
+
+
+
+.box-check{
+    width: 675px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #FCFCFC;
+    font-family: OpenSans-Bold;
+    margin-top: 10px;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.box-check.checked {
+    background-color: #6C45CE; /* Cor de fundo quando checked */
+    color: #FCFCFC;
+}
+
+.box-icons{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}

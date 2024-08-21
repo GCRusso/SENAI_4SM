@@ -1,0 +1,29 @@
+.box-modal {
+    width: 915px;
+    height: 475px;
+    border-radius: 8px;
+    background-color: #1E123B;
+    position: absolute;
+    bottom: 265px;
+    left: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-text {
+    width: 750px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.blur {
+    position: absolute;
+    bottom: 1px;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.3);
+}

@@ -1,14 +1,14 @@
 import React from "react";
-import './title.css'
+import PropTypes from 'prop-types';
+import './title.css';
 
 const Title = ({ titleText }) => {
-
-    return (
-        <h1 className={'title'}>
-            {titleText}
-        </h1>
-    );
-
+  return (
+    <div className="title">
+      <h1>
+        {titleText}
+      </h1>
+    </div>
+  );
 };
-
 export default Title;
