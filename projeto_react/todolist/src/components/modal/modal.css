@@ -1,15 +1,18 @@
+
 .box-modal {
     width: 915px;
-    height: 475px;
     border-radius: 8px;
     background-color: #1E123B;
     position: absolute;
-    bottom: 265px;
-    left: 460px;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 
 .box-text {
@@ -17,6 +20,11 @@
     height: 300px;
     border: 1px solid white;
     border-radius: 8px;
+    background-color: transparent;
+    color: #FCFCFC;
+    font-family: OpenSans-Bold;
+    padding: 20px;
+    resize: none;
 }
 
 .blur {

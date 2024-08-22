@@ -25,9 +25,7 @@ function App() {
     <>
       <div className='background'>
         <div className='box-background'>
-          <Title
-            titleText={'Terca-feira, 24 de Julho'}
-          />
+          <h1 className='title'>Terça-feira  <span className='text-purple'> 24 </span> De Julho</h1>
 
           <Input
             placeholder={"Procurar Tarefa"}

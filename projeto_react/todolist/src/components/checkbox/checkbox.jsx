@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./checkbox.css";
 import { MdEdit } from "react-icons/md";
 import { MdHighlightOff } from "react-icons/md";
+import { MdOutlineCheckBox, MdOutlineCheckBoxOutlineBlank } from "react-icons/md";
 
 const Checkbox = ({ checked, handleChange }) => {
     const options = [{ text: 'Começar a execução do projeto.' }];
@@ -15,10 +16,17 @@ const Checkbox = ({ checked, handleChange }) => {
 
     return (
         <label className={`box-check ${isChecked ? 'checked' : ''}`}>
+            {
+                checked ?
+                    <MdOutlineCheckBox />
+                    :
+                    <MdOutlineCheckBoxOutlineBlank />
+
+            }
             <input
                 type="checkbox"
-                checked={isChecked}
                 onChange={handleCheckboxChange}
+                style={{display:"none"}}
             />
             {options[0].text}
             <div className="box-icons">

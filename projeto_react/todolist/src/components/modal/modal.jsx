@@ -12,9 +12,9 @@ const Modal = ({ onClose }) => {
                 <Title
                     titleText={'Descreva sua tarefa'}
                 />
-                <div className="box-text">
+                <textarea className="box-text">
 
-                </div>
+                </textarea>
                 <Button
                     textButton={'Confirmar tarefa'}
                     onClick={onClose}
