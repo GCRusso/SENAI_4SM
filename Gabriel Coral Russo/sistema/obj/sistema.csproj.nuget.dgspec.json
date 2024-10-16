@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\23655858841\\Desktop\\Gabriel Coral Russo\\sistema\\sistema.csproj": {}
+    "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\Gabriel Coral Russo\\sistema\\sistema.csproj": {}
   },
   "projects": {
-    "C:\\Users\\23655858841\\Desktop\\Gabriel Coral Russo\\sistema\\sistema.csproj": {
+    "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\Gabriel Coral Russo\\sistema\\sistema.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\23655858841\\Desktop\\Gabriel Coral Russo\\sistema\\sistema.csproj",
+        "projectUniqueName": "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\Gabriel Coral Russo\\sistema\\sistema.csproj",
         "projectName": "sistema",
-        "projectPath": "C:\\Users\\23655858841\\Desktop\\Gabriel Coral Russo\\sistema\\sistema.csproj",
+        "projectPath": "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\Gabriel Coral Russo\\sistema\\sistema.csproj",
         "packagesPath": "C:\\Users\\23655858841\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\23655858841\\Desktop\\Gabriel Coral Russo\\sistema\\obj\\",
+        "outputPath": "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\Gabriel Coral Russo\\sistema\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\23655858841\\AppData\\Roaming\\NuGet\\NuGet.Config",

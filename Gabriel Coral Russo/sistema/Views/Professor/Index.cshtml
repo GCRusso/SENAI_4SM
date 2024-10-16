@@ -2,49 +2,76 @@
     ViewData["Title"] = "Professor";
 }
 
-<div style="display:flex">
-    <h3>@ViewBag.NomeProfessor</h3>
+@if (ViewBag.NomeProfessor == null)
+{
+    <a asp-controller="Login">Login</a>
+}
+else
+{
+    <div class="d-flex justify-content-end">
+        <button class=" mt-5 mb-5 rounded border-1 btn btn-outline-primary " type="button" data-bs-toggle="modal" data-bs-target="#cadastrarTurma">Cadastrar Turma</button>
+    </div>
 
-    <form asp-controller="Login" asp-action="Logout" method="post">
-        <button type="submit">Sair</button>
-    </form>
-</div>
 
-<form asp-controller="Professor" asp-action="CadastrarTurma">
-    <input type="text" name="nomeTurma" placeholder="Nome da turma" required/>
-    <button type="submit">Cadastrar</button>
-</form>
+    <h4 class="mb-4">Sua lista de turmas</h4>
 
-<h4>Turmas</h4>
-
-<table>
-    <thead>
-        <tr>
-            <th>Numero</th>
-            <th>Nome</th>
-            <th>Acao</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach(var turma in Model)
-        {
+    <table class="table">
+        <thead>
             <tr>
-                <td> @turma.TurmaId </td>
-                <td> @turma.Nome </td>
-                <td>  
-                    <form asp-controller="Professor" asp-action="ExcluirTurma" method="post" onsubmit="return confirm ('Voce tem certeza que deseja excluir esta turma?')">
-                        <input type="hidden" name="turmaId" value="@turma.TurmaId"/>
-                        <button type="submit">Excluir</button>
-                    </form>
-
-                    <form asp-controller="Atividade" asp-action="Index" asp-route-turmaId="@turma.TurmaId">
-                        <input type="hidden"  name="turmaId" value="@turma.TurmaId"/>
-                        <button type="submit">Visualizar</button>
-                    </form>
-
-                    
-                </td>
+                <th scope="col">Numero</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Acao</th>
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var turma in Model)
+            {
+                <tr>
+                    <td> @turma.TurmaId </td>
+                    <td> @turma.Nome </td>
+                    <td class="d-flex flex-row">
+                        <form asp-controller="Professor" asp-action="ExcluirTurma" method="post" onsubmit="return confirm('Voce tem certeza que deseja excluir esta turma?')">
+                            <input type="hidden" name="turmaId" value="@turma.TurmaId" />
+                            <button class="btn border-0 text-danger" type="submit"><u>Excluir</u></button>
+                        </form>
+
+                        <form asp-controller="Atividade" asp-action="Index" asp-route-turmaId="@turma.TurmaId">
+                            <input type="hidden" name="turmaId" value="@turma.TurmaId" />
+                            <button class="btn border-0 text-primary" type="submit"><u>Visualizar</u></button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    @if (TempData["Mensagem"] != null)
+    {
+        <p style="color:red">@TempData["Mensagem"]</p>
+    }
+
+    <!-- Modal -->
+    <div class="modal fade" id="cadastrarTurma" tabindex="-1" aria-labelledby="cadastrarTurma" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="cadastrarTurma">Cadastrar Turma</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+
+                <form asp-controller="Professor" asp-action="CadastrarTurma">
+                    <div class="modal-body">
+                        <label class="form-label">Nome da Turma</label>
+                        <input type="text" name="nomeTurma" class="form-control" required />
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">Confirmar</button>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+}

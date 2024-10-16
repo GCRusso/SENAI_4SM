@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2qRY11TjDitBe+H/chIJgREoLEgdEhYiE4+58odQXZ0hNEptaF06RXs6WgU4UTJjbjDPdUID/oiC5TFHXkuuzg==",
+  "dgSpecHash": "h0p1fE2B1ywjsuliUeO4hRJdeSGcifwIQpjza75SY1SoNagoKf+frGW6aastQdOqHz+d1CS/kPoBDtKeg5SR1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\23655858841\\Desktop\\Gabriel Coral Russo\\sistema\\sistema.csproj",
+  "projectFilePath": "C:\\Users\\23655858841\\Desktop\\SENAI_4SM\\Gabriel Coral Russo\\sistema\\sistema.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\23655858841\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\23655858841\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
