@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Login";
+}
+
+<h2>Bem Vindo</h2>
+
+<form asp-controller="Login" asp-action="Logar" method="post">
+    <div>
+        <label>Email</label>
+        <input type="email" name="email" required/>
+
+        
+        <label>Senha</label>
+        <input type="password" name="senha" value="admin123" required />
+
+        <div>
+            <button type="submit">Entrar</button>
+        </div>
+    </div>
+</form>
+
+@if (TempData["Mensagem"] != null)
+{
+    <p style="color:red">@TempData["Mensagem"]</p>
+}
