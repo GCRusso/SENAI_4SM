@@ -9,7 +9,7 @@
 else
 {
     <div class="d-flex justify-content-end">
-        <button class=" mt-5 mb-5 rounded border-1 btn btn-outline-primary " type="button" data-bs-toggle="modal" data-bs-target="#cadastrarTurma">Cadastrar Turma</button>
+        <button class=" mt-5 mb-4 rounded border-1 btn btn-outline-primary " type="button" data-bs-toggle="modal" data-bs-target="#cadastrarTurma">Cadastrar Turma</button>
     </div>
 
 
@@ -18,9 +18,9 @@ else
     <table class="table">
         <thead>
             <tr>
-                <th scope="col">Numero</th>
+                <th scope="col">Número</th>
                 <th scope="col">Nome</th>
-                <th scope="col">Acao</th>
+                <th scope="col">Ação</th>
             </tr>
         </thead>
         <tbody>
@@ -30,6 +30,7 @@ else
                     <td> @turma.TurmaId </td>
                     <td> @turma.Nome </td>
                     <td class="d-flex flex-row">
+
                         <form asp-controller="Professor" asp-action="ExcluirTurma" method="post" onsubmit="return confirm('Voce tem certeza que deseja excluir esta turma?')">
                             <input type="hidden" name="turmaId" value="@turma.TurmaId" />
                             <button class="btn border-0 text-danger" type="submit"><u>Excluir</u></button>

@@ -6,19 +6,23 @@
     <input type="hidden" name="turmaId" value="@ViewBag.TurmaId" />
     <div class="mt-4 mb-4">
 
-        <input class="rounded " type="text" name="descricao" placeholder="Nome" required />
-        <button  class="rounded btn btn-outline-primary"type="submit">Cadastrar Atividade</button>
+
+        <div class="d-flex justify-content-end">
+            <button class=" mt-5 mb-4 rounded border-1 btn btn-outline-primary " type="button" data-bs-toggle="modal" data-bs-target="#cadastrarAtividade">Cadastrar Atividade</button>
+        </div>
+
     </div>
 </form>
+<h4>Atividades</h4>
+<h4 class="mb-4 mt-2">Turma: @ViewBag.NomeTurma</h4>
 
-<h4>Turma: @ViewBag.NomeTurma</h4>
-
-<table>
-    <thead>
+<table class="table">
+    <thead >
         <tr>
-            <th>Numero</th>
-            <th>Nome</th>
+            <th scope="col">Numero</th>
+            <th scope="col">Nome</th>
         </tr>
+        
     </thead>
     <tbody>
         @foreach (var atividade in Model)
@@ -30,3 +34,31 @@
         }
     </tbody>
 </table>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="cadastrarAtividade" tabindex="-1" aria-labelledby="cadastrarAtividade" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="cadastrarAtividade">Cadastrar Atividade</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <form asp-controller="Atividade" asp-action="CadastrarAtividade" >
+                <div class="modal-body">
+                    <label class="form-label">Nome da Atividade</label>
+                    <input type="text" name="descricao" class="form-control" required />
+                    <input type="hidden" name="turmaId" value="@ViewBag.TurmaId" />
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" class="btn btn-primary">Confirmar</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</div>
